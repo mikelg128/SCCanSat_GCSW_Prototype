@@ -3,6 +3,10 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_GCSW_Prototype.h"
 
+namespace Ui {
+	class GCSW_Prototype;
+}
+
 class GCSW_Prototype : public QMainWindow
 {
 	Q_OBJECT
