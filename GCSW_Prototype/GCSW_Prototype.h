@@ -22,7 +22,7 @@ public slots:
 	void readSerialPort();
 
 private:
-	char buffer[50];
+	char buffer[50]; //currently not used
 	Ui::GCSW_PrototypeClass ui;
 	QSerialPort GCSWSerialPort;
 	
